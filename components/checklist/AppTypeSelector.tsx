@@ -11,7 +11,7 @@ function AppTypeCard({ title, description, emoji, onClick }: AppTypeCardProps) {
   return (
     <button
       onClick={onClick}
-      className="flex flex-col gap-3 p-6 rounded-xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-left hover:border-red-500 dark:hover:border-red-500 hover:shadow-md transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
+      className="flex flex-col gap-3 p-6 rounded-xl border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-left hocus:border-red-500 dark:hocus:border-red-500 hocus:shadow-md transition-all duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
     >
       <span className="text-3xl" aria-hidden>{emoji}</span>
       <div>

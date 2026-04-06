@@ -94,7 +94,7 @@ export function ChecklistWizard() {
           <div className="max-w-screen-xl mx-auto h-10 flex items-center">
             <button
               onClick={() => dispatch({ type: "RESTART" })}
-              className="flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+              className="flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 hocus:text-gray-900 dark:hocus:text-white transition-colors"
             >
               <span aria-hidden>&#8592;</span>
               Back

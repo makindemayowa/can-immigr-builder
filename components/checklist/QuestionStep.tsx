@@ -37,14 +37,14 @@ export function QuestionStep({
       <div className="grid grid-cols-2 gap-3">
         <button
           onClick={() => onAnswer(question.id, true)}
-          className="flex flex-col items-center gap-1 p-4 rounded-xl border-2 border-gray-200 dark:border-gray-700 hover:border-green-500 dark:hover:border-green-500 hover:bg-green-50 dark:hover:bg-green-950 transition-all text-gray-800 dark:text-gray-200 font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-500"
+          className="flex flex-col items-center gap-1 p-4 rounded-xl border-2 border-gray-200 dark:border-gray-700 hocus:border-green-500 dark:hocus:border-green-500 hocus:bg-green-50 dark:hocus:bg-green-950 transition-all text-gray-800 dark:text-gray-200 font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-500"
         >
           <span className="text-2xl" aria-hidden>✓</span>
           Yes
         </button>
         <button
           onClick={() => onAnswer(question.id, false)}
-          className="flex flex-col items-center gap-1 p-4 rounded-xl border-2 border-gray-200 dark:border-gray-700 hover:border-red-500 dark:hover:border-red-500 hover:bg-red-50 dark:hover:bg-red-950 transition-all text-gray-800 dark:text-gray-200 font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
+          className="flex flex-col items-center gap-1 p-4 rounded-xl border-2 border-gray-200 dark:border-gray-700 hocus:border-red-500 dark:hocus:border-red-500 hocus:bg-red-50 dark:hocus:bg-red-950 transition-all text-gray-800 dark:text-gray-200 font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500"
         >
           <span className="text-2xl" aria-hidden>✗</span>
           No
